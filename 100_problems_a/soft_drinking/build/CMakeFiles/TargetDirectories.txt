@@ -1,0 +1,5 @@
+/Users/bhorowitz/Documents/codeforces/100_problems_a/soft_drinking/build/CMakeFiles/solution_main.dir
+/Users/bhorowitz/Documents/codeforces/100_problems_a/soft_drinking/build/CMakeFiles/solution_test.dir
+/Users/bhorowitz/Documents/codeforces/100_problems_a/soft_drinking/build/CMakeFiles/test.dir
+/Users/bhorowitz/Documents/codeforces/100_problems_a/soft_drinking/build/CMakeFiles/edit_cache.dir
+/Users/bhorowitz/Documents/codeforces/100_problems_a/soft_drinking/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,81 @@
+Start testing: Nov 03 15:22 CDT
+----------------------------------------------------------
+1/3 Testing: TestOne
+1/3 Test: TestOne
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build/solution_test" "--gtest_filter=SolutionTests.TestOne"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build
+"TestOne" start time: Nov 03 15:22 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestOne
+[       OK ] SolutionTests.TestOne (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"TestOne" end time: Nov 03 15:22 CDT
+"TestOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: TestTwo
+2/3 Test: TestTwo
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build/solution_test" "--gtest_filter=SolutionTests.TestTwo"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build
+"TestTwo" start time: Nov 03 15:22 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestTwo
+[       OK ] SolutionTests.TestTwo (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTwo" end time: Nov 03 15:22 CDT
+"TestTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: TestThree
+3/3 Test: TestThree
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build/solution_test" "--gtest_filter=SolutionTests.TestThree"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/system_of_eq/build
+"TestThree" start time: Nov 03 15:22 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestThree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestThree
+[       OK ] SolutionTests.TestThree (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestThree" end time: Nov 03 15:22 CDT
+"TestThree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 15:22 CDT
