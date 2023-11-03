@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/tram
+# Build directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/tram/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(TestOne "/Users/bhorowitz/Documents/codeforces/100_problems_a/tram/build/solution_test" "--gtest_filter=SolutionTests.TestOne")
+set_tests_properties(TestOne PROPERTIES  _BACKTRACE_TRIPLES "/Users/bhorowitz/Documents/codeforces/100_problems_a/tram/CMakeLists.txt;31;add_test;/Users/bhorowitz/Documents/codeforces/100_problems_a/tram/CMakeLists.txt;0;")

@@ -1,0 +1,29 @@
+Start testing: Nov 03 16:15 CDT
+----------------------------------------------------------
+1/1 Testing: TestOne
+1/1 Test: TestOne
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_a/tram/build/solution_test" "--gtest_filter=SolutionTests.TestOne"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_a/tram/build
+"TestOne" start time: Nov 03 16:15 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestOne
+[       OK ] SolutionTests.TestOne (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"TestOne" end time: Nov 03 16:15 CDT
+"TestOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 16:15 CDT
