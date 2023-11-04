@@ -1,8 +1,23 @@
 #!/bin/bash
 
-# Ask for the problem set and number
-read -p "Problem Set (A/B/C): " problemset
-read -p "Problem Number: " problemnum
+export LC_ALL=C
+
+#Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+
+# Ask for the problem set and number, using colors
+echo -ne "Problem Set (A/B/C): "
+read -r problemset
+
+echo -ne "Problem Number: "
+read -r problemnum
+
+echo --------------------------------------
+echo -e ${GREEN}Retrieving and generating problem... ${NC}
+
 lowercase_pset=$(echo "$problemset" | tr '[:upper:]' '[:lower:]')
 
 # Construct the problem identifier
@@ -32,8 +47,34 @@ if [[ -n $link ]]; then
   open "$link" # Use 'open' instead of 'xdg-open' if on macOS
 
 else
-  echo "Problem link not found."
-  exit
+
+# Function to generate a random number within a given range.
+random_number_within() {
+  local min=$1
+  local max=$2
+  echo $((RANDOM % (max - min + 1) + min))
+}
+
+# Generate a random letter between A-C.
+letter=$(tr -dc 'A-C' </dev/urandom | head -c 1)
+
+# Based on the letter, generate a random number in the appropriate range.
+if [[ $letter == "A" ]] || [[ $letter == "B" ]]; then
+  number=$(random_number_within 1 100)
+else
+  number=$(random_number_within 1 50)
+fi
+
+  echo -e "Problem ${RED}$problemset$problemnum${NC} not found."
+  echo -ne "Would you like to try ${GREEN}$letter$number${NC} instead? (${GREEN}Y${NC}/${RED}N${NC}): "
+  read -r tryproblem
+
+  if [[ $tryproblem == "Y" ]]; then
+    echo "fix this"
+  else
+    exit
+  fi
+
 fi
 
 #Selects the folder to create the problem in 
