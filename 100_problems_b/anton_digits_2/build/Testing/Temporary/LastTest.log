@@ -1,0 +1,55 @@
+Start testing: Nov 03 23:33 CDT
+----------------------------------------------------------
+1/2 Testing: TestOne
+1/2 Test: TestOne
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_b/anton_digits_2/build/solution_test" "--gtest_filter=SolutionTests.TestOne"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_b/anton_digits_2/build
+"TestOne" start time: Nov 03 23:33 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestOne
+[       OK ] SolutionTests.TestOne (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"TestOne" end time: Nov 03 23:33 CDT
+"TestOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: TestTwo
+2/2 Test: TestTwo
+Command: "/Users/bhorowitz/Documents/codeforces/100_problems_b/anton_digits_2/build/solution_test" "--gtest_filter=SolutionTests.TestTwo"
+Directory: /Users/bhorowitz/Documents/codeforces/100_problems_b/anton_digits_2/build
+"TestTwo" start time: Nov 03 23:33 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SolutionTests.TestTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SolutionTests
+[ RUN      ] SolutionTests.TestTwo
+[       OK ] SolutionTests.TestTwo (0 ms)
+[----------] 1 test from SolutionTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestTwo" end time: Nov 03 23:33 CDT
+"TestTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 23:33 CDT
